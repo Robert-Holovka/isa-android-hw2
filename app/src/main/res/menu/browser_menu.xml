@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_reload"
+        app:showAsAction="always"
+        android:icon="@drawable/reload_icon"
+        android:title="Reload"
+        />
+
+    <item
+        android:id="@+id/menu_homePage"
+        app:showAsAction="always"
+        android:icon="@drawable/homepage_icon"
+        android:title="HomePage"
+        />
+
+    <item
+        android:id="@+id/menu_favoritePage"
+        app:showAsAction="always"
+        android:icon="@drawable/favorite_icon_white"
+        android:title="Favorite"
+        />
+
+    <item
+        android:id="@+id/menu_back"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_back_selector"
+        android:title="Back" />
+    <item
+        android:id="@+id/menu_forward"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_forward_selector"
+        android:title="Forward"
+        />
+
+    <item
+        android:id="@+id/menu_setAsHomePage"
+        android:title="Set as Homepage"
+        />
+</menu>
